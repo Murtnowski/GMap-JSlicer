@@ -16,4 +16,6 @@ We take a IMG element of the image we want to mapify then use Canvas to generate
 
 Eventually when Web Workers get better support for Canvas, we will use them to improve performance.
 
+Also on some mobile device won't load images over a cerain size.  The iPhone is limited to width * height ≤ 3 * 1024 * 1024
+
 See it in the wild: http://gvgmaps.com/
